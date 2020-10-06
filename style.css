@@ -1,0 +1,19 @@
+#ttle1 {text-align : center}
+
+#ttle2 {text-align : center}
+
+#ttle3 {text-align : center}
+
+canvas {
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 630px;
+  height : 300px;
+  border : 1px solid lightgray;
+}
+
+#imginput { margin-left : 630px;}
+
+#imginput2 { margin-left : 400px;}
+
+#gray { margin-left : 630px;}

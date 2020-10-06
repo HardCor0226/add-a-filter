@@ -1,0 +1,18 @@
+<head>
+  <title>Add a Filter</title>
+</head>
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"> </script>
+<body style="background-color: #6699ff">
+  <h1 id=ttle1> Upload an Image and Add a Filter! </h1>
+  <h2 id=ttle2> First, Upload your Image! </h2>
+  <canvas id="img"> </canvas>
+  <p>
+    <input type="file" multiple="false" accept="image/*" id="imginput" onchange="upload()">
+  <h2 id=ttle3> Next, Add a Filter! </h2>
+  <input type="button" value="Grayscale" id="gray" onclick="makeGray()">
+  <input type="button" value="Red" id="red" onclick="makeRed()">
+  <input type="button" value="Jail Cell" id="window" onclick="makeWindow()">
+  <input type="button" value="Rainbow" id="rainbow" onclick="doRainbow()">
+  <input type="button" value="Invert" id="invt" onclick="doInvert()">
+  <input type="button" value="Reset Image" id="reset" onclick="resetImg()">
+  </p>
